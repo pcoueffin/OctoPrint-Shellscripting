@@ -3,8 +3,7 @@ from __future__ import absolute_import
 
 import octoprint.plugin
 
-class ShellscriptingPlugin(octoprint.plugin.SettingsPlugin,
-                           octoprint.plugin.AssetPlugin,
+class ShellscriptingPlugin(octoprint.plugin.StartupPlugin,
                            octoprint.plugin.TemplatePlugin):
 
     def on_after_startup(self):
