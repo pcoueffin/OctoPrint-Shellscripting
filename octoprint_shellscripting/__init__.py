@@ -21,6 +21,7 @@ class ShellscriptingPlugin(octoprint.plugin.StartupPlugin,
 
 
 __plugin_name__ = "Shell Scripting"
+__plugin_version__ = "0.0.2"
 __plugin_implementation__ = ShellscriptingPlugin()
 
 
